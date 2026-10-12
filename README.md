@@ -1,6 +1,6 @@
 # geo_field_checks
 
-An interactive map for **high-frequency checks (HFC)** on the Malengo follow-up survey in Uganda (2026 round). It compares the GPS point recorded by SurveyCTO during each interview with the home location the respondent reported. This helps spot interviews that may not have happened where they were supposed to.
+An interactive and automated map for **high-frequency checks (HFC)** on the Malengo follow-up survey in Uganda. It compares the GPS point recorded by SurveyCTO during each interview with the home location the respondent reported. This helps spot interviews that may not have happened where they were supposed to, hence supporting likely evidence of fabrications for in-person interviews. 
 
 **🗺️ Live map:** https://khaled22219.github.io/geo_field_checks/
 
@@ -16,7 +16,7 @@ Respondents who report the same town or village should have interview GPS points
 | Fill | Meaning |
 |---|---|
 | 🔴 Red | **Flagged**: more than **1 km** from the median point of its location group |
-| 🟢 Green | **OK**: within 1 km |
+| 🟢 Green | **OK**: within 1 km (acceptable buffer) | 
 | ⚪ Grey | **Not comparable**: no one else reported this location, so there is nothing to compare against |
 
 ### 2. Border: district-level check
